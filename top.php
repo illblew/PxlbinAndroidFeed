@@ -15,5 +15,5 @@ $rows = array();
      $rows['object_name'][] = $r;
    }
 
- print json_encode($rows);
+ print json_encode($rows, JSON_UNESCAPED_SLASHES);
 ?>
